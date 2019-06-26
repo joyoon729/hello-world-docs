@@ -2,7 +2,7 @@
 
 ## Description
 
-new Windows Terminal 을 더 잘 다루기 위함
+new Windows Terminal 을 더 잘 다루기 위한 프로젝트
 
 
 
@@ -23,6 +23,12 @@ new Windows Terminal 을 더 잘 다루기 위함
 - install WSL
 - import WSL to Windows Terminal
 - initial bash settings
+
+
+
+### my_prompt
+
+- my PS1 variable format
 
 
 
