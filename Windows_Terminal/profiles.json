@@ -241,7 +241,7 @@
         },
         {
             "acrylicOpacity" : 1.0,
-            "backgroundImage" : "C:\\Users\\MAIN\\AppData\\Local\\Packages\\Microsoft.WindowsTerminal_8wekyb3d8bbwe\\RoamingState\\5.gif",
+            "backgroundImage" : "C:\\Users\\$Username\\AppData\\Local\\Packages\\Microsoft.WindowsTerminal_8wekyb3d8bbwe\\RoamingState\\subway.gif",
             "backgroundImageOpacity" : 1.0,
             "closeOnExit" : false,
             "colorScheme" : "Solarized Dark",
