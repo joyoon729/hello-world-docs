@@ -80,17 +80,17 @@ WSL 은 가상화된 Linux 로 Windows 파일 시스템은 `/mnt` 에 마운트�
 
 
 
-`WSPATH` (workspace path) 변수 추가
+`WS` (workspace path) 변수 추가
 
 ``` bash
-export WSPATH=/mnt/c/Users/__windows username__/workspace
+export WS=/mnt/c/Users/__windows username__/workspace
 ```
 
 
 
-bash shell 을 열때마다 `cd $WSPATH ` 명령어 실행
+bash shell 을 열때마다 `cd $WS ` 명령어 실행
 
 ```bash
-cd $WSPATH
+cd $WS
 ```
 
