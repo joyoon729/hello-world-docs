@@ -83,7 +83,7 @@ WSL 은 가상화된 Linux 로 Windows 파일 시스템은 `/mnt` 에 마운트�
 `WS` (workspace path) 변수 추가
 
 ``` bash
-export WS=/mnt/c/Users/__windows username__/workspace
+export WS=/mnt/c/Users/__windows_username__/workspace
 ```
 
 
@@ -92,5 +92,14 @@ bash shell 을 열때마다 `cd $WS ` 명령어 실행
 
 ```bash
 cd $WS
+```
+
+
+
+`$HOME` 변수를 윈도우 파일시스템 기준으로 변경
+`~` (tilde) 키워드를 윈도우 파일시스템에 맞게 사용할 수 있게함
+
+```bash
+export HOME=/mnt/c/Users/__windows_username__
 ```
 
