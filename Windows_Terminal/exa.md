@@ -67,14 +67,12 @@ alias 명령어로는 인자를 전달하지 못하므로 function 을 사용해
 # apply 'exa' command
 # ls alias
 ls(){
-	if [ "$1" = "" ]; then
-		exa
-	elif [ "$1" = "-l" ]; then
-		exa --git --header --long
+	if [ "$1" = "-l" ]; then
+		exa --git --header --long $2 $3 $4 $5
 	elif [ "$1" = "-t" ]; then
-		exa --tree --level=$2
+		exa --tree --level=$2 $3 $4 $5
 	else
-		echo "Wrong ls(exa) argument"
+		exa $1 $2 $3 $4 $5
 	fi
 }
 ```
@@ -102,7 +100,7 @@ $ ls
 $ ls -l
 ```
 
-![](./images/ls -l.png)
+![](./images/ls -l staged.png)
 
 **Git header (git status)**
 
