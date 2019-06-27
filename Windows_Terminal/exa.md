@@ -100,7 +100,7 @@ $ ls
 $ ls -l
 ```
 
-![](./images/ls -l staged.png)
+![](./images/ls_-l_staged.png)
 
 **Git header (git status)**
 
@@ -115,6 +115,6 @@ $ ls -l
 $ ls -t 2
 ```
 
-![](./images/ls -t 2.png)
+![](./images/ls_-t_2.png)
 
 **level 2 Tree View**
