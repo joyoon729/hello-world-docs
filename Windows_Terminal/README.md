@@ -34,6 +34,12 @@ new Windows Terminal 을 더 잘 다루기 위한 프로젝트
 
 
 
+### exa.md
+
+- a tool to replace 'ls' command
+
+
+
 ### git-status
 
 - automate `git status` command for all git directory
