@@ -25,7 +25,7 @@ git 로그인정보를 `credential` 정보를 저장해둘 시 `~/.cache/git/cre
 **Windows 파일 시스템에 대한 접근권한 얻는다.**
 
 ```bash
-sudo unmount /mnt/c
+sudo umount /mnt/c
 sudo mount -t drvfs C: /mnt/c -o metadata
 ```
 

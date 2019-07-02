@@ -66,22 +66,14 @@ alias 명령어로는 인자를 전달하지 못하므로 function 을 사용해
 ```bash
 # apply 'exa' command
 # ls alias
-ls(){
-	if [ "$1" = "-l" ]; then
-		exa --git --header --long $2 $3 $4 $5
-	elif [ "$1" = "-t" ]; then
-		exa --tree --level=$2 $3 $4 $5
-	else
-		exa $1 $2 $3 $4 $5
-	fi
-}
+alias ls='exa --git --header'
 ```
 
 `example`
 
 ```bash
-$ ls -l # --> exa --git --header --long
-$ ls -t 2 # --> exa --tree --level=2
+$ ls -l # --> exa --git --header -l (--long)
+$ ls -l ~/workspace # --> exa --git --header -l ~/workspace
 ```
 
 
@@ -112,7 +104,7 @@ $ ls -l
 
 
 ```bash
-$ ls -t 2
+$ ls --tree --level=2
 ```
 
 ![](./images/ls_-t_2.png)
