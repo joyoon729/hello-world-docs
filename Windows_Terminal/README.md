@@ -46,7 +46,7 @@ new Windows Terminal 을 더 잘 다루기 위한 프로젝트
 
 
 
-### explorer.md
+### explorer_alias.md
 
 - make a command to run Windows file explorer
 
