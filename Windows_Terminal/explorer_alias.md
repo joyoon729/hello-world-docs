@@ -83,7 +83,7 @@ As a result, we can use explorer command in WSL using `wslpath` translating.
 
 <br>
 
-## usage
+## Usage
 
 ```bash
 $ open [filepath]
