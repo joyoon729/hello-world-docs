@@ -31,6 +31,20 @@ And source `.bashrc`.
 $ source /home/$USER/.bashrc
 ```
 
+### Why use shell function, not alias?
+
+The argument of `open` command will located inside command sentence, not located end of sentence.
+
+so we couldn't use alias.
+
+```bash
+# alias open='explorer.exe `wslpath -w "$PWD/"`'
+$ open __target_directory_path__
+--> explorer.exe `wslpath -w "$PWD"` __target_directory_path__
+```
+
+it will not working.
+
 
 
 <br>
@@ -83,6 +97,8 @@ $ open .
 ```
 
 ![](./images/open1.png)
+
+<br><br>
 
 
 
