@@ -52,6 +52,13 @@ new Windows Terminal 을 더 잘 다루기 위한 프로젝트
 
 
 
+### switch_to_WSL2.md
+
+- switch from WSL to WSL2
+- learn about Windows 10 'insider preview'
+
+
+
 ### git-status
 
 - automate `git status` command for all git directory
@@ -68,3 +75,4 @@ new Windows Terminal 을 더 잘 다루기 위한 프로젝트
 ### images/
 
 - include images
+
