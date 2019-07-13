@@ -8,7 +8,7 @@ OSX 에서 Docker 시작하기
 
 ## Install
 
-[https://docs.docker.com/docker-for-mac/install/](https://docs.docker.com/docker-for-mac/install/)
+[https://docs.docker.com/v17.12/docker-for-mac/install/](https://docs.docker.com/v17.12/docker-for-mac/install/#download-docker-for-mac)
 
 ![](./images/docker_for_mac.png)
 
