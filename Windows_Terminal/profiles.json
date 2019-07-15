@@ -204,9 +204,8 @@
     "profiles" : 
     [
         {
-            "acrylicOpacity" : 0.7,
+            "acrylicOpacity" : 0.69999998807907104,
             "background" : "#000000",
-            //backgroundImage" : "C:\\Users\\MAIN\\AppData\\Local\\Packages\\Microsoft.WindowsTerminal_8wekyb3d8bbwe\\RoamingState\\5.gif",
             "backgroundImageOpacity" : 1.0,
             "closeOnExit" : false,
             "colorScheme" : "Solarized Dark",
@@ -292,7 +291,7 @@
             "brightBlue" : "#839496",
             "brightCyan" : "#93A1A1",
             "brightGreen" : "#586E75",
-            "brightPurple" : "#6C71C4",
+            "brightPurple" : "#dd3cc0",
             "brightRed" : "#CB4B16",
             "brightWhite" : "#FDF6E3",
             "brightYellow" : "#657B83",
