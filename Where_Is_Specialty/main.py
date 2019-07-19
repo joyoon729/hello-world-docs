@@ -37,4 +37,4 @@ def I_want_there(location, want='서울'):
     else:
         return False
     
-display(df[df.location.agg(I_want_there, want='역삼동')])
+print(df[df.location.agg(I_want_there, want='역삼동')])
