@@ -33,5 +33,24 @@ in anaconda prompt ...
   jtplot.style(theme='onedork', context='paper', spines=True, ticks=True, grid=True, gridlines='dotted')
   ```
 
-  
+
+
+
+<br>
+
+<br>
+
+---
+
+
+
+
+
+## default theme + monaco font
+
+사용 결과 제일 깔끔한듯 함.
+
+**`custom/`** 폴더를 `~/.jupyter/` 폴더에 붙여넣으면 된다.
+
+<br>
 
