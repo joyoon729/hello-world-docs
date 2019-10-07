@@ -1,10 +1,10 @@
-# new Windows Terminal
+# new Windows Terminal (with WSL)
 
 ## Description
 
 new Windows Terminal 을 더 잘 다루기 위한 프로젝트
 
-
+(WSL setting 포함)
 
 ![](./images/wsl_on_windows_terminal.png)
 
